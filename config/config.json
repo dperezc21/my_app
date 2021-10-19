@@ -3,21 +3,21 @@
     "username": "root",
     "password": "Ludycom2021*",
     "database": "prueba_tecnica",
-    "host": "localhost",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Ludycom2021*",
-    "database": "prueba_tecnica ",
-    "host": "localhost",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "Ludycom2021*",
-    "database": "prueba_tecnica ",
-    "host": "localhost",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   }
 }

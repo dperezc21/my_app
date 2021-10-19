@@ -15,7 +15,4 @@ mysqlConnection.connect(function(err) {
         console.log("Connection - Goog Job!")
     }
 });
-
-
-
 module.exports = mysqlConnection;

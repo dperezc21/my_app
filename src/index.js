@@ -13,7 +13,11 @@ app.use(cors());
 app.set('port', process.env.PORT || 3100);
 
 // Routes
-app.use(require('./router/cliente'));
+//app.use(require('./router/cliente'));
+require('./router/cliente')(app);
+app.get('*', (req, res) => res.status(200).send({
+     message: 'Welcome to the beginning of nothingness.',
+}));
 
 // Inicializar servidor
 app.listen(app.get('port'), () => {
